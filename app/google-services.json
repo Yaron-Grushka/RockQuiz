@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "350768543377",
+    "firebase_url": "https://rockquiz-8a390.firebaseio.com",
+    "project_id": "rockquiz-8a390",
+    "storage_bucket": "rockquiz-8a390.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350768543377:android:2ec25f8f031d8f6912b130",
+        "android_client_info": {
+          "package_name": "com.quiz.rockquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350768543377-ichdlako68c6131rt5lafmgjuverg6ik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE7qUCsNZSxQ1UR0nWox82WmRJUZQCON8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350768543377-ichdlako68c6131rt5lafmgjuverg6ik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

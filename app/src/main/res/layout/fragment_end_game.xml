@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/endgame_background"
+    android:elevation="21dp"
+    tools:context=".EndGameFragment">
+
+    <TextView
+        android:id="@+id/win_or_lose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <!-- Level overview headline -->
+
+    <TextView
+        android:id="@+id/game_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/win_or_lose"
+        android:layout_margin="10dp"
+        android:text="@string/game_overview"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <!-- Total score -->
+
+    <TextView
+        android:id="@+id/game_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/game_overview"
+        android:layout_gravity="start"
+        android:layout_margin="10dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <!-- High score -->
+
+    <TextView
+        android:id="@+id/high_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/game_score"
+        android:layout_gravity="start"
+        android:layout_margin="10dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <!-- Strikes -->
+
+    <TextView
+        android:id="@+id/strikes_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/high_score"
+        android:layout_gravity="start"
+        android:layout_margin="10dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/high_score_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/high_score"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/high_score"
+        android:visibility="gone" />
+
+</RelativeLayout>
