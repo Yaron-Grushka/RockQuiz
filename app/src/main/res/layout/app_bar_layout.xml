@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:background="?android:attr/windowBackground"
     app:menu="@menu/bottom_nav_bar"
-    app:itemIconTint="@color/buttonBlue"
-    app:backgroundTint="#ec4e26"
-    app:itemTextColor="@color/buttonBlue"
+    app:itemIconTint="@color/white"
+    app:backgroundTint="@color/colorPrimary"
+    app:itemTextColor="@color/white"
     android:layoutDirection="rtl"/>

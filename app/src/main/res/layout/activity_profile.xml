@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layoutDirection="ltr"
+    android:background="@color/gray"
     tools:context=".ProfileActivity">
 
     <TextView
@@ -18,6 +19,7 @@
         android:clickable="true"
         android:focusable="true"
         android:text="@string/sign_out"
+        android:textColor="@color/white"
         android:textSize="15sp"/>
 
     <ImageView
@@ -45,6 +47,8 @@
         android:clickable="true"
         android:focusable="true"
         android:text="@string/change_avatar"
+        android:textColor="@color/white"
+        android:textStyle="bold"
         android:textSize="20sp"/>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -76,7 +80,6 @@
         android:text="@string/save"/>
 
     <include
-        android:id="@+id/profile_app_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         layout="@layout/app_bar_layout"

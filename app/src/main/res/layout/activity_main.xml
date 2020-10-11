@@ -5,14 +5,14 @@
     android:id="@+id/mainActivityLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/red_black_gradient"
+    android:background="@color/gray"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/play_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/buttonBlue"
+        android:backgroundTint="@color/colorPrimary"
         android:text="@string/play"
         android:layout_centerInParent="true"/>
 
